@@ -1,0 +1,13 @@
+.container{
+  border: 1px solid red;
+  width: calc(100vw - 1rem * 2);
+  
+  margin: auto;
+}
+
+@media (width >= 80em){
+  .container{
+    max-width: 80em;
+    width: calc(100vw - 1.5rem * 2);
+  }
+}
