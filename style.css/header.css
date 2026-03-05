@@ -1,0 +1,20 @@
+header{
+  display: flex;
+  justify-content: space-between;
+
+  & nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  & a{
+    color: var(--text-color-secondary);
+    text-decoration: none;
+
+    &:hover{
+      color: var(--brand-color);
+      text-decoration: underline;
+    }
+  }
+}
