@@ -11,10 +11,22 @@ header{
   & a{
     color: var(--text-color-secondary);
     text-decoration: none;
-
     &:hover{
       color: var(--brand-color);
       text-decoration: underline;
+      & img{
+        color: blue;
+      }
+    }
+  }
+
+  .search-link{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--text-color-secondary);
+    &:hover{
+      color: var(--brand-color);
     }
   }
 }
