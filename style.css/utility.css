@@ -1,13 +1,18 @@
 .container{
-  border: 1px solid red;
   width: calc(100vw - 1rem * 2);
-  
-  margin: auto;
+  margin-inline: auto;
+  padding: 1rem 0;
+}
+.desktop-only{
+  display: none;
 }
 
 @media (width >= 80em){
   .container{
     max-width: 80em;
     width: calc(100vw - 1.5rem * 2);
+  }
+  .desktop-only{
+    display: initial;
   }
 }

@@ -30,3 +30,11 @@
   /* Paragraph Small - Regular 12px/170% */
   --p-sm-style: 400 12px/1.7 var(--font-main);
 }
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--surface-color);
+}
+ul{
+  list-style: none;
+}
